@@ -38,7 +38,7 @@ export default makeHook(MyHook);
 Then, pass the hook as usual to the `LiveSocket` constructor options.
 
 ```js
-import { MyHook } from "./hooks/MyHook";
+import MyHook from "./hooks/my_hook";
 
 const hooks = { MyHook };
 
