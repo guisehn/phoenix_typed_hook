@@ -2,6 +2,8 @@
 
 Write your Phoenix LiveView client hooks using typed classes, with or without TypeScript.
 
+See autocomplete available in VS Code by using it:
+
 ![Demo of code editor autocomplete using phoenix_typed_hook](https://github.com/guisehn/phoenix_typed_hook/raw/main/misc/demo.gif)
 
 ## Reasoning
