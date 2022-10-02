@@ -49,9 +49,9 @@ Phoenix Typed Hook can be installed via NPM or Mix.
 
 In your project directory, go to the assets folder (`cd assets`) and run `npm install phoenix_typed_hook --save`
 
-### Installing with Mix
+### Installing with Hex
 
-Using Mix to install Phoenix Typed Hook requires more steps compared to NPM, but allows you to manage its version on `mix.exs`, closer to where the Phoenix LiveView version is also declared. This makes it easier to remember to upgrade them together.
+Using Hex to install Phoenix Typed Hook requires more steps compared to NPM, but allows you to manage its version on `mix.exs`, closer to where the Phoenix LiveView version is also declared. This makes it easier to remember to upgrade them together.
 
 Add `phoenix_typed_hook` to the list of dependencies in `mix.exs`:
 
