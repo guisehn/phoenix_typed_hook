@@ -4,7 +4,7 @@ defmodule PhoenixTypedHook.MixProject do
   def project do
     [
       app: :phoenix_typed_hook,
-      version: "0.0.1",
+      version: "0.18.1",
       elixir: "~> 1.0",
       build_embedded: false,
       start_permanent: false,
