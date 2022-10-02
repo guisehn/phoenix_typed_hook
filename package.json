@@ -2,13 +2,13 @@
   "name": "phoenix_typed_hook",
   "version": "0.18.0",
   "description": "Write your Phoenix LiveView client hooks using typed classes",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "priv/static/index.js",
+  "types": "priv/static/index.d.ts",
   "files": [
-    "dist/*"
+    "priv/static/*"
   ],
   "scripts": {
-    "build": "esbuild src/index.ts --bundle --sourcemap --platform=node --target=node10 --outdir=dist && tsc -p . --emitDeclarationOnly --declaration --outDir dist",
+    "build": "esbuild src/index.ts --bundle --sourcemap --platform=node --target=node10 --outdir=priv/static && tsc -p . --emitDeclarationOnly --declaration --outDir priv/static",
     "test": "jest"
   },
   "repository": {
