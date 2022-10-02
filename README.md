@@ -58,7 +58,7 @@ Add `phoenix_typed_hook` to the list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:phoenix_typed_hook, "~> 0.18"}
+    {:phoenix_typed_hook, "~> 0.0.1"}
   ]
 end
 ```
