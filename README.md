@@ -4,11 +4,11 @@ Write your Phoenix LiveView client hooks using typed classes, with or without Ty
 
 See autocomplete available in VS Code by using it:
 
-![Demo of code editor autocomplete using phoenix_typed_hook](https://github.com/guisehn/phoenix_typed_hook/raw/v0.18.1/misc/demo.gif)
+![Demo of code editor autocomplete using phoenix_typed_hook](https://github.com/guisehn/phoenix_typed_hook/raw/v0.18.2/misc/demo.gif)
 
 ## Reasoning
 
-Custom LiveView [client hooks](https://hexdocs.pm/phoenix_live_view/0.18.1/js-interop.html#client-hooks-via-phx-hook) are defined as plain objects implementing callbacks such as `mounted`, `updated`, etc.
+Custom LiveView [client hooks](https://hexdocs.pm/phoenix_live_view/0.18.2/js-interop.html#client-hooks-via-phx-hook) are defined as plain objects implementing callbacks such as `mounted`, `updated`, etc.
 
 Since they're plain objects, there is no typing involved, so code editors can't provide code completion for attributes available, and also can't do compile-time checks (this last one, when TypeScript is used).
 
@@ -58,7 +58,7 @@ Add `phoenix_typed_hook` to the list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:phoenix_typed_hook, "~> 0.18.1"}
+    {:phoenix_typed_hook, "~> 0.18.2"}
   ]
 end
 ```

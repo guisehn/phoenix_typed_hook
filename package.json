@@ -1,6 +1,6 @@
 {
   "name": "phoenix_typed_hook",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "description": "Write your Phoenix LiveView client hooks using typed classes",
   "main": "priv/static/index.js",
   "types": "priv/static/index.d.ts",
