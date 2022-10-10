@@ -14,7 +14,7 @@ export declare abstract class Hook {
      * Method to push an event from the client to the LiveView server.
      * [More information](https://hexdocs.pm/phoenix_live_view/0.18.0/js-interop.html#client-hooks-via-phx-hook)
      */
-    pushEvent: (event: string, payload: any, callback: (reply: any, ref: number) => void) => void;
+    pushEvent: (event: string, payload: any, callback?: (reply: any, ref: number) => void) => void;
     /**
      * Method to push targeted events from the client to LiveViews and LiveComponents.
      * It sends the event to the LiveComponent or LiveView the `selectorOrTarget` is defined
@@ -23,7 +23,7 @@ export declare abstract class Hook {
      * even if all the elements are in the same LiveComponent or LiveView.
      * [More information](https://hexdocs.pm/phoenix_live_view/0.18.0/js-interop.html#client-hooks-via-phx-hook)
      */
-    pushEventTo: (selectorOrTarget: Element | string, event: string, payload: any, callback: (reply: any, ref: number) => void) => void;
+    pushEventTo: (selectorOrTarget: Element | string, event: string, payload: any, callback?: (reply: any, ref: number) => void) => void;
     /**
      * Method to handle an event pushed from the server.
      * [More information](https://hexdocs.pm/phoenix_live_view/0.18.0/js-interop.html#client-hooks-via-phx-hook)

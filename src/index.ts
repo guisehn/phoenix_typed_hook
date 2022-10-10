@@ -20,7 +20,7 @@ export abstract class Hook {
   pushEvent: (
     event: string,
     payload: any,
-    callback: (reply: any, ref: number) => void
+    callback?: (reply: any, ref: number) => void
   ) => void;
 
   /**
@@ -35,7 +35,7 @@ export abstract class Hook {
     selectorOrTarget: Element | string,
     event: string,
     payload: any,
-    callback: (reply: any, ref: number) => void
+    callback?: (reply: any, ref: number) => void
   ) => void;
 
   /**
